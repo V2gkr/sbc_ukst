@@ -974,16 +974,6 @@
 		)
 		(uuid "d6f4faed-0783-4d13-aa21-e6726db4c918")
 	)
-	(text "1) добавить ЕСД защиту везде где плата подключается к внешнему миру линии данных и детекция\n2) добавить конденсаторы на линиях питания\n3) уточнить надобность последовательной терминации"
-		(exclude_from_sim no)
-		(at 100.584 101.346 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ee5e80a5-33a5-4445-8de9-5ebfc8f6f20d")
-	)
 	(junction
 		(at 154.94 55.88)
 		(diameter 0)
@@ -2839,8 +2829,8 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
-			(at 154.94 27.178 90)
+		(property "Value" "VDD_SDCARD"
+			(at 154.94 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

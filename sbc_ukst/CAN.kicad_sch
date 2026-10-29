@@ -1898,14 +1898,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 87.63 53.34 0)
+		(property "Value" "5V_CAN"
+			(at 90.17 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2350,7 +2351,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V_CAN"
 			(at 66.04 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2,9 +2,193 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid d33d6e1f-e18a-4795-a869-09cae8a7419a)
+	(uuid "d33d6e1f-e18a-4795-a869-09cae8a7419a")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 193.04 85.09)
+		(size 24.13 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07b6b92f-0473-4386-b409-cc407d4b80e0")
+		(property "Sheetname" "CAN"
+			(at 193.04 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 193.04 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 80.01)
+		(size 25.4 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d66f95f-1f0a-4d06-bb70-ea418dfe04b7")
+		(property "Sheetname" "Ethernet rgmii"
+			(at 134.62 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet_rgmii.kicad_sch"
+			(at 134.62 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 121.92)
+		(size 26.67 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b95b3c85-3496-49d1-8161-a66867a148e3")
+		(property "Sheetname" "sdcard"
+			(at 106.68 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcard.kicad_sch"
+			(at 106.68 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 85.09)
+		(size 30.48 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf3dfc26-89cb-4d8a-b1a6-a9681912c363")
+		(property "Sheetname" "DDR3"
+			(at 58.42 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3.kicad_sch"
+			(at 58.42 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
