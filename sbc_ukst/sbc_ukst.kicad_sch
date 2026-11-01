@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 80.01)
+		(at 233.68 76.2)
 		(size 25.4 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "5d66f95f-1f0a-4d06-bb70-ea418dfe04b7")
 		(property "Sheetname" "Ethernet rgmii"
-			(at 134.62 79.2984 0)
+			(at 233.68 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet_rgmii.kicad_sch"
-			(at 134.62 111.0746 0)
+			(at 233.68 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,6 +93,144 @@
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 128.27)
+		(size 16.51 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "646647ac-9564-4354-881d-18c1a4ff1cd7")
+		(property "Sheetname" "DSI"
+			(at 168.91 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DSI.kicad_sch"
+			(at 168.91 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 29.21)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65ddc335-4590-4c40-9ed2-1b812a4f505a")
+		(property "Sheetname" "wifi bt"
+			(at 168.91 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifi_bt.kicad_sch"
+			(at 168.91 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 27.94)
+		(size 46.99 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a8bf395f-dfe8-4b04-b336-2a145e4e048e")
+		(property "Sheetname" "MCU_PWR"
+			(at 81.28 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_power.kicad_sch"
+			(at 81.28 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "7")
 				)
 			)
 		)
@@ -185,6 +323,98 @@
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 114.3)
+		(size 13.97 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d6b1d3da-f5f4-41a4-989f-ef5cd6938864")
+		(property "Sheetname" "MCU"
+			(at 46.99 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 46.99 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 27.94)
+		(size 41.91 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7e44834-f9e6-4b8d-ae32-4ff731401625")
+		(property "Sheetname" "pmic"
+			(at 29.21 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic.kicad_sch"
+			(at 29.21 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a"
+					(page "6")
 				)
 			)
 		)

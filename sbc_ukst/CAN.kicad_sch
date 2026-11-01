@@ -1356,7 +1356,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1) serial termination isnt that neccesary in this application\n2) some IC have STB internal pull down , its still better to add external one\n3) 120Ohm resistor and a switch to add or remove parallel termination\n4) 2 bidirectional tvs protection to the input connector\n5) shutdown pin must be pulled up if not used"
+	(text "1) serial termination isnt that neccesary in this application\n2) some IC have STB internal pull down , its still better to add external one\n3) 120Ohm resistor and a switch to add or remove parallel termination\n4) 2 bidirectional tvs protection to the input connector\n5) shutdown pin must be pulled up if not used , added 0 ohm resistor just in case if it should be left floating\n"
 		(exclude_from_sim no)
 		(at 58.42 140.716 0)
 		(effects
@@ -1452,6 +1452,16 @@
 			(type default)
 		)
 		(uuid "1521509b-27fb-48cb-b586-34d22760617e")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d002878-a6f8-4b34-bd5f-32800c732fa2")
 	)
 	(wire
 		(pts
@@ -1705,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 85.09 91.44)
+			(xy 60.96 91.44) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01055c18-d420-40a3-b6e2-6d2b103afaed")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0403"
 			(at 87.63 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1948,7 +1958,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR01")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc5039f-50ee-4a48-92c1-b9191abfbe09")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0402"
 			(at 78.74 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2038,7 +2048,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR079")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -2057,6 +2067,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 91.44 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17383b4b-ed85-47a2-a74f-c0e6d741da98")
+		(property "Reference" "R401"
+			(at 66.04 90.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0"
+			(at 77.978 90.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 71.12 89.662 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 65.532 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
+			(at 65.532 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "81cb2118-e89d-4979-93d4-759a07e6cb79")
+		)
+		(pin "2"
+			(uuid "39f53224-0005-4ebe-812a-4209662f3deb")
+		)
+		(instances
+			(project "sbc_ukst"
+				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 146.05 86.36 90)
 		(unit 1)
@@ -2067,7 +2183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e142ed7-8092-4d5e-83fb-890945bed7fe")
-		(property "Reference" "SW1"
+		(property "Reference" "SW401"
 			(at 140.462 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2142,7 +2258,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "SW1")
+					(reference "SW401")
 					(unit 1)
 				)
 			)
@@ -2166,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a3fb67-f107-4d1d-9679-655a0845a313")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0406"
 			(at 166.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2226,7 +2342,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR021")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -2250,7 +2366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43fb2837-15f9-45b9-ba53-9e675aaeb7a3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0405"
 			(at 97.79 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2310,7 +2426,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR018")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2446,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 91.44 90)
+		(at 60.96 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2340,8 +2456,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d8ff699-bc63-4494-87bb-ff5d5c0da177")
-		(property "Reference" "#PWR02"
-			(at 73.66 91.44 0)
+		(property "Reference" "#PWR0401"
+			(at 64.77 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,7 +2468,7 @@
 			)
 		)
 		(property "Value" "5V_CAN"
-			(at 66.04 91.4399 90)
+			(at 57.15 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2363,7 +2479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 91.44 0)
+			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +2490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 91.44 0)
+			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 91.44 0)
+			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2401,7 +2517,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR02")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -2424,7 +2540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51cd80c9-2e78-43e2-a744-57a934d05916")
-		(property "Reference" "R2"
+		(property "Reference" "R403"
 			(at 147.32 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2628,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "R2")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -2542,7 +2658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67a8f21d-48b3-4851-88ed-0f0269efb217")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0407"
 			(at 191.77 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2718,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR020")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f77df06-71e6-4eb9-bb15-900941946af2")
-		(property "Reference" "C1"
+		(property "Reference" "C401"
 			(at 90.17 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +2811,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "C1")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2725,7 +2841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934fd5be-859b-4957-8b95-83d3afaa3c4e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0404"
 			(at 87.63 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2785,7 +2901,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "#PWR019")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "955f7398-8b96-4fe1-95c7-23dbc39e9ec8")
-		(property "Reference" "R1"
+		(property "Reference" "R402"
 			(at 77.47 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +3019,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "R1")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -2933,7 +3049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3ed7105-218a-41e3-8f1e-8ebdaef2347c")
-		(property "Reference" "J1"
+		(property "Reference" "J401"
 			(at 206.502 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,7 +3127,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "J1")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e2fce9-a748-4ffc-8135-8e668bbaf47f")
-		(property "Reference" "U2"
+		(property "Reference" "U401"
 			(at 99.9333 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3245,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "U2")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e15a9974-6799-43d7-bf5a-6d1bfccae86d")
-		(property "Reference" "D1"
+		(property "Reference" "D401"
 			(at 156.21 91.4401 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3347,7 @@
 		(instances
 			(project "sbc_ukst"
 				(path "/d33d6e1f-e18a-4795-a869-09cae8a7419a/07b6b92f-0473-4386-b409-cc407d4b80e0"
-					(reference "D1")
+					(reference "D401")
 					(unit 1)
 				)
 			)
