@@ -1813,77 +1813,38 @@
 		)
 		(uuid "b0e98e52-3845-4a49-b2b8-2b6c0416d565")
 	)
-	(global_label "CAN_STBY"
-		(shape input)
-		(at 74.93 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37588544-3918-41bf-9a55-54ad5715611f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.7524 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RXCAN"
-		(shape input)
-		(at 74.93 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "615ef170-b1bf-498d-82d8-19f78bece0be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7762 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TXCAN"
+	(hierarchical_label "TXCAN"
 		(shape input)
 		(at 74.93 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "854fccde-3da3-4853-9e9a-46aeeaa20ffe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.0786 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "8717edb0-6ac1-488a-8b52-38b10ec5d2be")
+	)
+	(hierarchical_label "CAN_STBY"
+		(shape input)
+		(at 74.93 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "b7a136a5-26a5-4db6-bc5b-352e764424f0")
+	)
+	(hierarchical_label "RXCAN"
+		(shape input)
+		(at 74.93 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4fa4f43-01b2-415c-969c-8ba3af59f520")
 	)
 	(symbol
 		(lib_id "power:+5V")

@@ -5927,7 +5927,7 @@
 		(uuid "6f8df852-9fed-4188-95ed-205f71e6d7aa")
 	)
 	(bus_entry
-		(at 26.67 46.99)
+		(at 20.32 48.26)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5936,7 +5936,7 @@
 		(uuid "004572fc-92fe-481f-b28a-1cef97062a3e")
 	)
 	(bus_entry
-		(at 26.67 44.45)
+		(at 20.32 45.72)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5945,7 +5945,7 @@
 		(uuid "17857a8b-a72b-48ad-b595-943d7cb1b12f")
 	)
 	(bus_entry
-		(at 26.67 41.91)
+		(at 20.32 43.18)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5954,7 +5954,7 @@
 		(uuid "257eb84e-89cb-4fe8-beac-080d3d115c01")
 	)
 	(bus_entry
-		(at 26.67 52.07)
+		(at 20.32 53.34)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5963,7 +5963,7 @@
 		(uuid "34c2ad5b-0621-448a-99d0-52f2e28a5395")
 	)
 	(bus_entry
-		(at 26.67 31.75)
+		(at 20.32 33.02)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5972,7 +5972,7 @@
 		(uuid "3fcfdf08-b5fd-43df-bbe0-eb06b1561d27")
 	)
 	(bus_entry
-		(at 26.67 24.13)
+		(at 20.32 25.4)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5981,7 +5981,7 @@
 		(uuid "40a12cc8-e8d5-496f-947b-2d8b6a5ced78")
 	)
 	(bus_entry
-		(at 26.67 34.29)
+		(at 20.32 35.56)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5990,7 +5990,7 @@
 		(uuid "4e1fef22-97b8-4adc-ab44-8423296d2d12")
 	)
 	(bus_entry
-		(at 26.67 54.61)
+		(at 20.32 55.88)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5999,7 +5999,7 @@
 		(uuid "5176e2a7-e99d-4f60-9fe1-c16a92a1f91f")
 	)
 	(bus_entry
-		(at 26.67 29.21)
+		(at 20.32 30.48)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6008,7 +6008,7 @@
 		(uuid "6542a543-2b93-43e5-affd-6584d5fe3dff")
 	)
 	(bus_entry
-		(at 26.67 26.67)
+		(at 20.32 27.94)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6017,7 +6017,7 @@
 		(uuid "93f3299d-edeb-4b6d-99a7-0bf3c21481b5")
 	)
 	(bus_entry
-		(at 26.67 21.59)
+		(at 20.32 22.86)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6026,7 +6026,7 @@
 		(uuid "969156c4-4942-46f1-815f-0aa26c25992d")
 	)
 	(bus_entry
-		(at 26.67 49.53)
+		(at 20.32 50.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6035,7 +6035,7 @@
 		(uuid "a0432714-20a7-4ab9-a19b-1032c9d9a570")
 	)
 	(bus_entry
-		(at 26.67 36.83)
+		(at 20.32 38.1)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6044,7 +6044,7 @@
 		(uuid "b855aceb-18ed-4eff-a963-c3e1c4c72c30")
 	)
 	(bus_entry
-		(at 26.67 39.37)
+		(at 20.32 40.64)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6053,7 +6053,7 @@
 		(uuid "c588275e-c189-49ea-a907-74bb1fe48123")
 	)
 	(bus_entry
-		(at 26.67 19.05)
+		(at 20.32 20.32)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6163,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 29.21) (xy 29.21 29.21)
+			(xy 38.1 30.48) (xy 22.86 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6473,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 36.83) (xy 26.67 39.37)
+			(xy 20.32 38.1) (xy 20.32 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6553,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 41.91) (xy 29.21 41.91)
+			(xy 38.1 43.18) (xy 22.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6593,7 +6593,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 44.45) (xy 26.67 41.91)
+			(xy 20.32 45.72) (xy 20.32 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6633,7 +6633,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 59.69) (xy 44.45 59.69)
+			(xy 26.67 60.96) (xy 38.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6663,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 29.21 39.37)
+			(xy 38.1 40.64) (xy 22.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6683,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 29.21 44.45)
+			(xy 38.1 45.72) (xy 22.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6843,7 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 21.59) (xy 29.21 21.59)
+			(xy 38.1 22.86) (xy 22.86 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +6853,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 46.99) (xy 26.67 52.07)
+			(xy 20.32 48.26) (xy 20.32 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6943,7 +6943,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 36.83) (xy 26.67 34.29)
+			(xy 20.32 38.1) (xy 20.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6953,7 +6953,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 29.21 57.15)
+			(xy 38.1 58.42) (xy 22.86 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6993,7 +6993,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 29.21 46.99)
+			(xy 38.1 48.26) (xy 22.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7183,7 +7183,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 49.53) (xy 29.21 49.53)
+			(xy 38.1 50.8) (xy 22.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7353,7 +7353,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 29.21 31.75)
+			(xy 38.1 33.02) (xy 22.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7393,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 26.67) (xy 29.21 26.67)
+			(xy 38.1 27.94) (xy 22.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7433,7 +7433,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 16.51) (xy 26.67 16.51)
+			(xy 24.13 17.78) (xy 20.32 17.78)
 		)
 		(stroke
 			(width 0)
@@ -7463,7 +7463,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 24.13) (xy 29.21 24.13)
+			(xy 38.1 25.4) (xy 22.86 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7493,7 +7493,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 34.29) (xy 29.21 34.29)
+			(xy 38.1 35.56) (xy 22.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7573,7 +7573,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 16.51) (xy 26.67 31.75)
+			(xy 20.32 17.78) (xy 20.32 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +7593,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 29.21 54.61)
+			(xy 38.1 55.88) (xy 22.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7603,7 +7603,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 29.21 36.83)
+			(xy 38.1 38.1) (xy 22.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 29.21 52.07)
+			(xy 38.1 53.34) (xy 22.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7693,7 +7693,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 52.07) (xy 26.67 54.61)
+			(xy 20.32 53.34) (xy 20.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7703,7 +7703,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 31.75) (xy 26.67 34.29)
+			(xy 20.32 33.02) (xy 20.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7713,7 +7713,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 44.45) (xy 26.67 46.99)
+			(xy 20.32 45.72) (xy 20.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +7773,7 @@
 	)
 	(bus
 		(pts
-			(xy 26.67 41.91) (xy 26.67 39.37)
+			(xy 20.32 43.18) (xy 20.32 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7862,7 +7862,7 @@
 		(uuid "05f799a7-72a6-4db6-9207-b40d71092fcb")
 	)
 	(label "RGMII.MDINT"
-		(at 44.45 57.15 180)
+		(at 38.1 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7882,7 +7882,7 @@
 		(uuid "1277c844-3036-401d-8d86-0c89ab4d32e7")
 	)
 	(label "RGMII.TXD1"
-		(at 44.45 24.13 180)
+		(at 38.1 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7902,7 +7902,7 @@
 		(uuid "1b4ab64d-80ec-4f55-a99e-6cb8a0cfb5ec")
 	)
 	(label "RGMII.MDC"
-		(at 44.45 54.61 180)
+		(at 38.1 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7942,7 +7942,7 @@
 		(uuid "469254e1-c589-4f80-ae8b-ce07fadfa9fd")
 	)
 	(label "RGMII.TXD2"
-		(at 44.45 26.67 180)
+		(at 38.1 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7952,7 +7952,7 @@
 		(uuid "51780855-ac9e-4a22-9799-4d5bfcc65fb9")
 	)
 	(label "RGMII.TXD3"
-		(at 44.45 29.21 180)
+		(at 38.1 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8022,7 +8022,7 @@
 		(uuid "6e00a6c6-3488-47f6-9d44-c578f18a1c2b")
 	)
 	(label "RGMII.TXCTL"
-		(at 44.45 31.75 180)
+		(at 38.1 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8032,7 +8032,7 @@
 		(uuid "7f71ca8a-abdf-4e13-bfba-dc45f4cc4a35")
 	)
 	(label "RGMII.TXD0"
-		(at 44.45 21.59 180)
+		(at 38.1 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8082,7 +8082,7 @@
 		(uuid "9558754a-a945-48d5-841a-01d96921f966")
 	)
 	(label "RGMII.RXCTL"
-		(at 44.45 46.99 180)
+		(at 38.1 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8092,7 +8092,7 @@
 		(uuid "992e0352-233b-452f-b00c-b3caef0122b4")
 	)
 	(label "RGMII.RXCLK"
-		(at 44.45 49.53 180)
+		(at 38.1 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8102,7 +8102,7 @@
 		(uuid "9a6cfe96-fb87-4b5c-a00f-96b650ebfa55")
 	)
 	(label "RGMII.RXD0"
-		(at 44.45 36.83 180)
+		(at 38.1 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8112,7 +8112,7 @@
 		(uuid "a0ce8e45-73e6-42f8-8c06-cd3c2ab05cee")
 	)
 	(label "RGMII.RXD1"
-		(at 44.45 39.37 180)
+		(at 38.1 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8152,7 +8152,7 @@
 		(uuid "b53577ec-d3d4-47de-82f8-b9b4674a8e13")
 	)
 	(label "RGMII.TXCLK"
-		(at 44.45 34.29 180)
+		(at 38.1 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8172,7 +8172,7 @@
 		(uuid "bb41a94f-d041-45af-b79b-0b6bbcec2eb0")
 	)
 	(label "RGMII.MDIO"
-		(at 44.45 52.07 180)
+		(at 38.1 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8212,7 +8212,7 @@
 		(uuid "c7bee8c8-b328-4f5d-bdcd-ac183853ccf3")
 	)
 	(label "RGMII.RXD3"
-		(at 44.45 44.45 180)
+		(at 38.1 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8252,7 +8252,7 @@
 		(uuid "d4b5402a-4a07-4a13-9dad-3af41740a9bb")
 	)
 	(label "RGMII.RXD2"
-		(at 44.45 41.91 180)
+		(at 38.1 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8282,7 +8282,7 @@
 		(uuid "f29ba29b-731c-4685-8e02-332c0db9201a")
 	)
 	(label "RESET"
-		(at 44.45 59.69 180)
+		(at 38.1 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8293,7 +8293,7 @@
 	)
 	(hierarchical_label "ETH_RESET"
 		(shape input)
-		(at 33.02 59.69 180)
+		(at 26.67 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8302,16 +8302,16 @@
 		)
 		(uuid "54ca83fc-de3b-4ef0-93fa-b48886255b53")
 	)
-	(hierarchical_label "RGMII{TXD0 TXD1 TXD2 TXD3 TXCTL TXCLK RXD0 RXD1 RXD2 RXD3 RXCTL RXCLK MDIO MDC MDINT}"
+	(hierarchical_label "RGMII{TXD[0..3] TXCTL TXCLK RXD[0..3] RXCTL RXCLK MDIO MDC MDINT}"
 		(shape input)
-		(at 30.48 16.51 0)
+		(at 24.13 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d9d4ef83-ef73-4d10-a23b-c67cf83bd89a")
+		(uuid "7ce9ef53-c262-4b46-a0e0-f7c80eac7d5e")
 	)
 	(symbol
 		(lib_id "Device:R")

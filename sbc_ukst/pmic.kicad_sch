@@ -4093,7 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 43.18) (xy 294.64 43.18)
+			(xy 39.37 39.37) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4443,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 35.56) (xy 294.64 35.56)
+			(xy 39.37 31.75) (xy 43.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 30.48) (xy 294.64 30.48)
+			(xy 39.37 26.67) (xy 43.18 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +5053,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 40.64) (xy 294.64 40.64)
+			(xy 39.37 36.83) (xy 43.18 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5473,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.9273 38.1) (xy 294.7373 38.1)
+			(xy 39.4673 34.29) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5513,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 25.4) (xy 294.64 25.4)
+			(xy 39.37 21.59) (xy 43.18 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5583,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 33.02) (xy 294.64 33.02)
+			(xy 39.37 29.21) (xy 43.18 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5603,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 27.94) (xy 294.64 27.94)
+			(xy 39.37 24.13) (xy 43.18 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5782,7 +5782,7 @@
 		(uuid "12429981-d059-488a-9317-2cd2655cdbf9")
 	)
 	(label "PMIC_CTRL1"
-		(at 294.64 30.48 0)
+		(at 43.18 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5792,7 +5792,7 @@
 		(uuid "1dc100a3-839b-47a5-afbe-dc737ae00703")
 	)
 	(label "PMIC_CTRL3"
-		(at 294.64 35.56 0)
+		(at 43.18 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5802,7 +5802,7 @@
 		(uuid "374a7960-5596-411c-8dcf-53dd8d6d1187")
 	)
 	(label "PMIC_SDA"
-		(at 294.64 27.94 0)
+		(at 43.18 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5812,7 +5812,7 @@
 		(uuid "3f6a0d52-e006-458d-bad8-dbb822f61bce")
 	)
 	(label "PMIC_CTRL2"
-		(at 294.64 33.02 0)
+		(at 43.18 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 		(uuid "501e7640-40b8-4912-b2ea-88dfbb27bb59")
 	)
 	(label "PMIC_SCL"
-		(at 294.64 25.4 0)
+		(at 43.18 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5842,7 +5842,7 @@
 		(uuid "52449edb-824d-414d-be3e-c599c1a23fb6")
 	)
 	(label "PMIC_RESET"
-		(at 294.64 38.1 0)
+		(at 43.18 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,7 +5852,7 @@
 		(uuid "6408ff27-ec12-46ff-ba26-41b3b7bb707e")
 	)
 	(label "PMIC_WKUP"
-		(at 294.64 43.18 0)
+		(at 43.18 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5862,7 +5862,7 @@
 		(uuid "75089f1c-4337-445d-a497-b0972ad6b03d")
 	)
 	(label "WAKEUPn"
-		(at 294.64 40.64 0)
+		(at 43.18 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5923,7 +5923,7 @@
 	)
 	(hierarchical_label "PMIC_CTRL2"
 		(shape input)
-		(at 290.83 33.02 180)
+		(at 39.37 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5934,7 +5934,7 @@
 	)
 	(hierarchical_label "PMIC_RST"
 		(shape input)
-		(at 290.83 38.1 180)
+		(at 39.37 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5945,7 +5945,7 @@
 	)
 	(hierarchical_label "PMIC_SCL"
 		(shape input)
-		(at 290.83 25.4 180)
+		(at 39.37 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5956,7 +5956,7 @@
 	)
 	(hierarchical_label "PMIC_CTRL3"
 		(shape input)
-		(at 290.83 35.56 180)
+		(at 39.37 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5967,7 +5967,7 @@
 	)
 	(hierarchical_label "PMIC_CTRL1"
 		(shape input)
-		(at 290.83 30.48 180)
+		(at 39.37 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 	)
 	(hierarchical_label "PMIC_WKUP"
 		(shape input)
-		(at 290.83 43.18 180)
+		(at 39.37 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5989,7 +5989,7 @@
 	)
 	(hierarchical_label "PMIC_WAKEUPn"
 		(shape input)
-		(at 290.83 40.64 180)
+		(at 39.37 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6000,7 +6000,7 @@
 	)
 	(hierarchical_label "PMIC_SDA"
 		(shape input)
-		(at 290.83 27.94 180)
+		(at 39.37 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9862,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 54.356 192.532 90)
 			(show_name no)
 			(do_not_autoplace no)
